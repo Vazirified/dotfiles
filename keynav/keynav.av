@@ -1,0 +1,99 @@
+######### KeyNav is a tool to control the pointer with a keyboard in order to retire the mouse!
+######### KeyNav can be downloaded from https://github.com/jordansissel/keynav .
+######### The only downside is that KeyNav only works with X11.
+
+### Background keynav
+#daemonize
+
+### Clear all previous keybindings
+clear
+
+### Basic bindings
+ctrl+KP_0 start,grid 3x3
+ctrl+semicolon start
+alt+semicolon start,move-right
+Tab restart
+Escape end
+ctrl+bracketleft end
+j cut-left
+k cut-down
+i cut-up
+l cut-right
+u cut-left,cut-up
+o cut-right,cut-up
+m cut-left,cut-down
+period cut-right,cut-down
+alt+j move-left
+alt+k move-down
+alt+i move-up
+alt+l move-right
+alt+u move-left,move-up
+alt+o move-right,move-up
+alt+m move-left,move-down
+alt+period move-right,move-down
+space warp,click 1,end
+semicolon warp,end
+a warp,click 1
+s warp,click 2
+d warp,click 3
+f warp,click 4
+v warp,click 5
+KP_1 cell-select 1x3
+KP_2 cell-select 2x3
+KP_3 cell-select 3x3
+KP_4 cell-select 1x2
+KP_5 cell-select 2x2
+KP_6 cell-select 3x2
+KP_7 cell-select 1x1
+KP_8 cell-select 2x1
+KP_9 cell-select 3x1
+KP_Enter warp,click 1,end
+KP_Add warp,doubleclick 1,end
+KP_Decimal warp,drag 1 # may not work on some platforms
+KP_Divide warp,click 1
+KP_Multiply warp,click 2
+KP_Subtract warp,click 3
+
+### Zoom to the current window
+w windowzoom
+c cursorzoom 100 100
+#ctrl+w windowzoom
+
+### Handy for holding ctrl while using keynav:
+ctrl+h cut-left
+ctrl+j cut-down
+ctrl+k cut-up
+ctrl+l cut-right
+ctrl+y cut-left,cut-up
+ctrl+u cut-right,cut-up
+ctrl+b cut-left,cut-down
+ctrl+n cut-right,cut-down
+
+### Drag examples
+# Start drag holding the left mouse button
+#q drag 1
+# Start drag holding middle mouse + control and shift
+#w warp
+
+### History
+#a history-back
+
+### Example of cut and move without the default values
+#h cut-left .75
+#j cut-down .75
+#k cut-up .75
+#l cut-right .75
+#shift+h move-left .50
+#shift+j move-down .50
+#shift+k move-up .50
+#shift+l move-right .50
+
+### Example using a 2-row, 3-column grid, 
+# mapped to Insert/Home/PageUp/etc...
+#6 grid 2x3
+#Insert cell-select 1x1
+#Home cell-select 1x2
+#Prior cell-select 1x3   # PageUp
+#Delete cell-select 2x1
+#End cell-select 2x2
+#Next cell-select 2x3   # PageDown
