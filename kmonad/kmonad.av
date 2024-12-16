@@ -2,6 +2,9 @@
 
 Kmonad is an advanced tool that lets you infinitely customize and extend the functionalities of almost any keyboard.
 This tool can be installed from https://github.com/kmonad/kmonad .
+You have to define the keyboard you want to modify in the "input" section below. For the purpose of this repository
+I have added a dummy input named "by-path/ADD-YOUR-KEYBOARD-HERE"; you will have to point to a real input device
+"by-path" or "by-ID" before modifying anything else or passing the config to KMonad.
 
 ----------------------------------------------------------------------------------------------------------------- |#
 
