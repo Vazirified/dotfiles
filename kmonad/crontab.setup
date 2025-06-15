@@ -1,0 +1,2 @@
+# Add this with "cronetab -e" after creating config such as .kmonad.av when kmonad was installed.
+@reboot /home/user/.local/bin/kmonad /home/user/.kmonad.av
