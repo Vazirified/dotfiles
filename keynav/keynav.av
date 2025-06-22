@@ -1,6 +1,7 @@
 ######### KeyNav is a tool to control the pointer with a keyboard in order to retire the mouse!
 ######### KeyNav can be downloaded from https://github.com/jordansissel/keynav .
-######### The only downside is that KeyNav only works with X11.
+######### The only downside is that KeyNav only works with X11, but MS-Windows users can try
+######### KeyNavish from https://github.com/lesderid/keynavish .
 
 ### Background keynav
 #daemonize
