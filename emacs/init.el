@@ -1,5 +1,6 @@
-;; AV's configuration
-;; ==================
+;; AV's configuration / 250704-a
+;; Based on David's init.el from https://github.com/daviwil/emacs-from-scratch/blob/3075158cae210060888001c0d76a58a4178f6a00/init.el
+;; =================================================================================================================================
 
 ;; Visual tweaks
 ;; -------------
