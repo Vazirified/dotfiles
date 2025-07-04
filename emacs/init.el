@@ -7,8 +7,8 @@
 
 (setq inhibit-startup-message t)
 (setq visual-bell t)
-(tool-bar-mode nil)
-(tooltip-mode nil)
+(tool-bar-mode -1)
+(tooltip-mode -1)
 (display-battery-mode t)
 (display-time-mode t)
 (set-fringe-mode 10)
