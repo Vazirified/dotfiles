@@ -1,4 +1,4 @@
-;; AV's configuration / 250704-a
+;; AV's configuration / 250704-b
 ;; Based on David's init.el from https://github.com/daviwil/emacs-from-scratch/blob/3075158cae210060888001c0d76a58a4178f6a00/init.el
 ;; =================================================================================================================================
 
@@ -56,7 +56,15 @@
   :config
   (ivy-mode 1))
 
+;; Need to manually install nerd-icons using the command M-x nerd-icons-install-fonts on MS-Windows
+(use-package nerd-icons
+  ;; :custom
+  ;; The Nerd Font you want to use in GUI
+  ;; "Symbols Nerd Font Mono" is the default and is recommended
+  ;; but you can use any other Nerd Font if you want
+  ;; (nerd-icons-font-family "Symbols Nerd Font Mono")
+  )
+
 (use-package doom-modeline
   :ensure t
-  :init (doom-modeline-mode 1)
-  :custom ((doom-modeline-height 15)))
+  :init (doom-modeline-mode 1))
